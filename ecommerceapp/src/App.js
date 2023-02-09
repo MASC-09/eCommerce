@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Header session={false}/> {/* //we are sending parameter here. */}
+        <Header session={true}/> {/* //we are sending parameter here. */}
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route path='/Products' element={<Products />} />
